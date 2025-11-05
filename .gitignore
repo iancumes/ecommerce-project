@@ -1,0 +1,72 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+venv/
+env/
+ENV/
+.venv
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+/media/
+/staticfiles/
+/static/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Frontend build
+dist/
+dist-ssr/
+*.local
+
+# Testing
+/coverage/
+.nyc_output/
+
+# Cypress
+cypress/videos/
+cypress/screenshots/
+
+# MongoDB
+*.mongo
+
+# Misc
+e-commerce
+
+API_ENDPOINTS.md
+CONFIGURACION_VSCODE.md
+ESTRUCTURA_OPTIMIZADA.md
+GUIA_DESARROLLO.md
+INICIO_RAPIDO.md
+REPORTE_REVISION_COMPLETA.md
+RESUMEN_PROYECTO.md
+ESTRUCTURA.md
