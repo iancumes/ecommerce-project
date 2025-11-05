@@ -1,0 +1,28 @@
+# railway.json - Configuración de Railway
+
+Archivo de configuración para Railway. 
+
+**NOTA:** Railway detecta automáticamente tu aplicación Django.
+No necesitas subir este archivo a GitHub.
+
+Simplemente:
+1. Conecta tu repo a Railway
+2. Railway detectará automáticamente que es Django
+3. Configurará todo por sí solo
+4. Ejecutará las migraciones del Procfile
+
+Si Railway tiene problemas, puedes usar este archivo:
+
+```json
+{
+  "builder": "dockerfile",
+  "nixpacks": {
+    "providers": ["python"],
+    "python": {
+      "version": "3.12"
+    }
+  }
+}
+```
+
+Pero normalmente **NO lo necesitas**.
